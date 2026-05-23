@@ -1,0 +1,121 @@
+@charset "UTF-8";
+.style-logement {
+  display: flex;
+  flex-direction: column;
+}
+.style-logement .container-logement {
+  display: flex;
+  flex-direction: column;
+}
+.style-logement .container-logement .item1-logement {
+  display: flex;
+}
+.style-logement .container-logement .item1-logement h1 {
+  color: #ff6060;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+.style-logement .container-logement .item1-logement,
+.style-logement .container-logement .item-logement,
+.style-logement .container-logement .item2-logement,
+.style-logement .container-logement .item3-logement {
+  display: flex;
+  justify-content: space-between;
+}
+.style-logement .container-logement .item1-logement .collapse,
+.style-logement .container-logement .item-logement .collapse,
+.style-logement .container-logement .item2-logement .collapse,
+.style-logement .container-logement .item3-logement .collapse {
+  display: block;
+  width: 40%;
+}
+.style-logement .container-logement .item2-logement .etoile-logement .host-logement-hidden {
+  display: none;
+}
+.style-logement .container-logement .item2-logement .tage-logement {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; /* Permet aux tags de passer à la ligne */
+  color: #ff6060;
+}
+.style-logement .container-logement .item2-logement .tage-logement .text-tag {
+  background-color: #ff6060;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+.style-logement .container-logement .host-logement {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.style-logement .container-logement .host-logement p {
+  color: #ff6060;
+  width: 50%;
+}
+.style-logement .container-logement .tage-logement {
+  display: flex;
+  gap: 10px;
+  color: #ff6060;
+}
+.style-logement .container-logement .tage-logement .text-tag {
+  background-color: #ff6060;
+  color: #fff;
+  border-radius: 10px;
+  width: 135px;
+  height: 25px;
+  text-align: center;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1120px) {
+  .style-logement {
+    display: flex;
+    flex-direction: column;
+  }
+  .style-logement .container-logement {
+    display: flex;
+    flex-direction: column;
+  }
+  .style-logement .container-logement .item1-logement {
+    display: flex;
+    flex-direction: column;
+  }
+  .style-logement .container-logement .item1-logement .host-logement {
+    display: none;
+  }
+  .style-logement .container-logement .item2-logement {
+    display: flex;
+    flex-direction: column;
+  }
+  .style-logement .container-logement .item2-logement .etoile-logement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .style-logement .container-logement .item2-logement .etoile-logement .host-logement-hidden {
+    display: flex;
+  }
+  .style-logement .container-logement .item2-logement .etoile-logement .host-logement-hidden p {
+    color: #ff6060;
+    width: 45%;
+  }
+  .style-logement .container-logement .item3-logement {
+    display: flex;
+    flex-direction: column;
+  }
+  .style-logement .container-logement .item3-logement .collapse {
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .style-logement .container-logement .item3-logement {
+    gap: 0; /* Supprime l'espacement entre les éléments */
+  }
+  .style-logement .container-logement .item3-logement .collapse {
+    display: block;
+    width: 100%;
+  }
+}/*# sourceMappingURL=logement.css.map */

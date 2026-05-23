@@ -1,0 +1,41 @@
+.collapse {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem; /* Ajoute de l'espace entre chaque collapse */
+}
+.collapse .collapse-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  background-color: #ff6060;
+  color: #fff;
+  height: 50px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+.collapse .collapse-header img {
+  width: 20px;
+  height: 10px;
+}
+.collapse .collapse-content li {
+  list-style: none;
+  padding: 0.5rem;
+  background-color: #fbf5f5;
+}
+.collapse .collapse-content p {
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-top: 0;
+  line-height: 2.5;
+  background-color: #fbf5f5;
+  color: #000000;
+}/*# sourceMappingURL=collapse.css.map */

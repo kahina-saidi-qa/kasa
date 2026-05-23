@@ -1,0 +1,26 @@
+.item-error img {
+  display: block;
+  margin: 65px auto;
+  width: 600px;
+  height: 265px;
+}
+
+.link-home {
+  display: block;
+  text-align: center;
+  color: rgb(8, 8, 8);
+  font-size: 18px;
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 3rem;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1120px) {
+  .item-error img {
+    display: block;
+    margin: 65px auto;
+    width: 190px;
+    height: 99px;
+  }
+}/*# sourceMappingURL=error.css.map */
