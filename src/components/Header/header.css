@@ -1,0 +1,44 @@
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 4.25rem;
+  justify-content: space-between;
+}
+header img.logo-header {
+  width: 13.14513rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  font-size: 24px;
+}
+header nav ul li .active-link {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 4.25rem;
+    justify-content: space-between;
+  }
+  header img.logo-header {
+    width: 8rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}/*# sourceMappingURL=header.css.map */

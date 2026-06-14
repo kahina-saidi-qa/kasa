@@ -1,0 +1,21 @@
+.apropos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.88rem;
+  color: #FF6060;
+}
+.apropos-container .apropos-content {
+  margin: 0 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .apropos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.88rem;
+    color: #FF6060;
+  }
+  .apropos-container .apropos-content {
+    margin: 0;
+  }
+}/*# sourceMappingURL=apropos.css.map */

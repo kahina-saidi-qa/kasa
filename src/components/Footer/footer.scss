@@ -1,0 +1,27 @@
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 220px;
+  
+    .footer-container {
+      display: flex;
+      flex-direction: column; /* Empile les éléments verticalement */
+      align-items: center;   /* Centre horizontalement */
+      justify-content: center; /* Centre verticalement */
+      height: 100%; /* Prend toute la hauteur disponible du footer */
+      gap: 1rem;
+      margin: 0 auto; /* Centre le container horizontalement */
+    }
+  
+    .logo-footer {
+      width: 122px; /* Ajustez la taille selon vos besoins */
+      filter: brightness(0) invert(1); /* Change la couleur pour être visible sur un fond noir */
+    }
+  
+    p {
+      font-size: 20px;
+      margin: 10px 0 0; /* Ajoute un peu d'espace au-dessus du texte */
+    }
+  }
+  
